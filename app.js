@@ -39,7 +39,12 @@ const pickAnswer= (event, question)=>{
             state.player1++
             console.log(state)
             $p1score.text(state.player1)
+            if(state.player1 >= 21){ 
             
+                    alert("You Won")  
+            }
+                
+        
         }else{
             state.player2++
             $p2score.text(state.player2)
@@ -51,15 +56,9 @@ const pickAnswer= (event, question)=>{
         console.log('incorrect')
         setBoard(questions)
         state.which= !state.which
-     }    function winCondition(){
-        if($p1score === 11 ){
-                alert("You Won")
-                player1.winGame = true
-            }
-    } winCondition()
+     }  
 
 }
-
 
 const setBoard = (q) => {
     //Getting arandom question
@@ -98,3 +97,5 @@ const URL ="https://cdn.contentful.com/spaces/60c0fuf4kl9b/environments/master/e
 
      setBoard(questions)
  })
+
+
