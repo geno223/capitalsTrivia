@@ -1,4 +1,4 @@
-# Holidays
+# Capitals Trivia!
 ### By Eugenio Jimenez
 
 DEPLOYED SITE: [https://geno223.github.io/sealproject1/]
