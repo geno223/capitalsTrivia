@@ -1,7 +1,7 @@
 # Capitals Trivia!
 ### By Eugenio Jimenez
 
-DEPLOYED SITE: [https://geno223.github.io/sealproject1/]
+DEPLOYED SITE: https://geno223.github.io/capitalsTrivia/
 ## Description on Project
 
 A paragraph discussing the idea of your project, the API you are using and desired user experience.
